@@ -1,0 +1,48 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0004"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test 1 ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Sandramrs",
+                "name": "Sandramrs"
+            },
+            "created": "2023-12-07T16:31:02.267Z",
+            "modified": "2023-12-07T16:31:07.973Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "workshop",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Sandramrs",
+                "name": "Sandramrs"
+            },
+            "created": "2023-12-07T16:31:10.602Z",
+            "modified": "2023-12-07T16:31:12.118Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://sandramrs.github.io/annonatate/manifests/catalog/technician-basketballpreview-1999/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0004",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><ellipse cx=\"1401.3731079101562\" cy=\"452.95812225341797\" rx=\"265.34234619140625\" ry=\"246.58075714111328\"></ellipse></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b4c34e46-131a-42a4-b267-ff2ffa77946f.json",
+    "motivation": "commenting"
+}
