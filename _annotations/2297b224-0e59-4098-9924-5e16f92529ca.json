@@ -1,0 +1,38 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0016"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Schedule 1999 - 2000",
+            "purpose": "supplementing",
+            "creator": {
+                "id": "Sandramrs",
+                "name": "Sandramrs"
+            },
+            "created": "2023-12-07T16:32:48.299Z",
+            "modified": "2023-12-07T16:33:08.437Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://sandramrs.github.io/annonatate/manifests/catalog/technician-basketballpreview-1999/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://d.lib.ncsu.edu/collections/canvas/technician-basketballpreview-1999_0016",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2159.854736328125,172.2840576171875,706.45849609375,266.280517578125"
+        }
+    },
+    "id": "2297b224-0e59-4098-9924-5e16f92529ca.json",
+    "motivation": "commenting"
+}
