@@ -1,0 +1,72 @@
+---
+added: 2023-12-07 16&#58;37&#58;05.302266
+thumbnail: https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/workshopannonatate/full/146,/0/default.jpg
+title: tree identification
+user: Sandramrs
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "tree identification"
+    ]
+  },
+  "summary": {
+    "en": [
+      "test image annonatate 7 December 20"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/canvas/treeidentification-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "workshop_annonatate"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/workshopannonatate/full/146,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 1545,
+      "width": 1170,
+      "items": [
+        {
+          "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/workshopannonatate/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1545,
+                "width": 1170,
+                "service": [
+                  {
+                    "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/workshopannonatate",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/canvas/treeidentification-1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
