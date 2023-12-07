@@ -4,32 +4,38 @@ order: 1
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
+            "created": "2023-12-07T16:44:24.295Z",
+            "creator": {
+                "id": "Sandramrs",
+                "name": "Sandramrs"
+            },
+            "modified": "2023-12-07T16:44:31.348Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "venation",
+            "value": "venation of leaf"
+        },
+        {
+            "type": "TextualBody",
+            "value": "leaf",
             "purpose": "tagging",
             "creator": {
                 "id": "Sandramrs",
                 "name": "Sandramrs"
             },
-            "created": "2023-12-07T16:44:11.760Z",
-            "modified": "2023-12-07T16:44:16.939Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "venation of leaf",
-            "purpose": "commenting",
-            "creator": {
-                "id": "Sandramrs",
-                "name": "Sandramrs"
-            },
-            "created": "2023-12-07T16:44:24.295Z",
-            "modified": "2023-12-07T16:44:31.348Z"
+            "created": "2023-12-07T19:20:40.144Z",
+            "modified": "2023-12-07T19:20:40.704Z"
         }
     ],
+    "id": "e0bdfe00-537a-4dfa-9b3e-40e1d5e034e5.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=477.681396484375,687.4186401367188,106.3516845703125,139.223876953125"
+        },
         "source": {
             "partOf": {
                 "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/manifest.json",
@@ -37,13 +43,7 @@ order: 1
             },
             "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/canvas/treeidentification-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=477.681396484375,687.4186401367188,106.3516845703125,139.223876953125"
         }
     },
-    "id": "e0bdfe00-537a-4dfa-9b3e-40e1d5e034e5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
