@@ -1,0 +1,49 @@
+---
+canvas: "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/canvas/treeidentification-1"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "venation",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Sandramrs",
+                "name": "Sandramrs"
+            },
+            "created": "2023-12-07T16:44:11.760Z",
+            "modified": "2023-12-07T16:44:16.939Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "venation of leaf",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Sandramrs",
+                "name": "Sandramrs"
+            },
+            "created": "2023-12-07T16:44:24.295Z",
+            "modified": "2023-12-07T16:44:31.348Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://sandramrs.github.io/annonatate/img/derivatives/iiif/treeidentification/canvas/treeidentification-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=477.681396484375,687.4186401367188,106.3516845703125,139.223876953125"
+        }
+    },
+    "id": "e0bdfe00-537a-4dfa-9b3e-40e1d5e034e5.json",
+    "motivation": "commenting"
+}
