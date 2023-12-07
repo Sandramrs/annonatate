@@ -1,3 +1,9 @@
-images: []
+images:
+- added: '2023-12-07 16:21:33.881581'
+  iiif: true
+  thumbnail: https://iiif.lib.ncsu.edu/iiif/technician-basketballpreview-1999_0001/full/150,/0/default.jpg
+  title: Technician Basketball Preview, 1999
+  url: https://d.lib.ncsu.edu/collections/catalog/technician-basketballpreview-1999/manifest.json
+  user: Sandramrs
 settings: {}
 version: '2.1'
